@@ -1,0 +1,29 @@
+body {
+  background-color: #B42C0E;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 10s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {background-color: black;}
+  to {background-color: #B42C0E;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  from {background-color: black;}
+  to {background-color: #B42C0E;}
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+.responsive {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
